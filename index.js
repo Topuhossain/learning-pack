@@ -100,6 +100,9 @@ app.get('/', (req, res) => {
 app.get('/update',(req,res)=>{
     res.send('the server is updated')
 })
+app.get('/check',(req,res)=>{
+    res.send('the server is checking')
+})
 
 app.listen(port, () => {
     console.log('port is running');
