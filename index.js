@@ -97,6 +97,9 @@ app.get('/', (req, res) => {
     res.send('the port is ok')
 
 })
+app.get('/update',(req,res)=>{
+    res.send('the server is updated')
+})
 
 app.listen(port, () => {
     console.log('port is running');
